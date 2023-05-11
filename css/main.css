@@ -784,4 +784,38 @@ img {
   line-height: 26px;
   color: #333D4B;
   opacity: 0.8;
+}
+
+@media screen and (max-width: 1120px) {
+  .about-our__img-block {
+    max-width: 281px;
+    flex-shrink: 0;
+  }
+  .about-our__content-block {
+    max-width: 339px;
+  }
+  .about-our__title {
+    padding-bottom: 30px;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .about-our__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .about-our__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-our__img-block {
+    max-width: 327px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+  }
+  .about-our__content-block {
+    max-width: 327px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=main.css.map */
